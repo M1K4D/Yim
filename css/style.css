@@ -1,0 +1,800 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* width: fit-content; */
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-1 {
+  width: 100%;
+  background: url("../images/wall.png") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  /* min-height: 700px; */
+}
+
+.row-nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-1 {
+  align-self: center;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.col-1 {
+  float: left;
+  width: 55%;
+  padding-top: 80px;
+}
+
+.col-1 ul {
+  padding-left: 80px;
+}
+
+.col-1 ul li {
+  list-style-type: none;
+}
+
+.col-1 ul li h3 {
+  width: 100%;
+  text-align: left;
+  font: normal normal bold Poppins;
+  font-size: 50px;
+  line-height: 20px;
+  color: #ffdd00;
+}
+
+.col-1 ul li h2 {
+  text-align: left;
+  font: normal normal bold Poppins;
+  font-size: 65px;
+  line-height: 20px;
+  color: #ffdd00;
+}
+
+.col-2 {
+  float: left;
+  width: 45%;
+  padding-top: 90px;
+  height: 700px;
+}
+
+.col-2 ul {
+  max-width: 500px;
+}
+
+.col-2 ul li {
+  list-style-type: none;
+}
+
+.col-2 ul li a {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lorem {
+  text-align: left;
+  font: normal normal medium 30px/0px Poppins;
+  font-size: 25px;
+  color: #212121;
+}
+
+.lorem-2 {
+  text-align: left;
+  font: normal normal bold 50px/40px Poppins;
+  font-size: 40px;
+  color: #212121;
+}
+
+.text {
+  max-width: 390px;
+  text-align: left;
+  font: normal normal 300 20.5px/30px Poppins;
+  padding-right: 30px;
+  color: #ffffff;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background: #ffdd00 0% 0% no-repeat padding-box;
+  border-radius: 39px;
+  color: #212121;
+}
+
+.button-base {
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background: #212121 0% 0% no-repeat padding-box;
+  border-radius: 34px;
+}
+
+.container-1 {
+  background: #000000 no-repeat padding-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  background-position: center;
+  height: 100%;
+  /* min-height: 800px; */
+}
+
+.col-3 {
+  float: left;
+  width: 50%;
+}
+
+.col-3 h2 {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 90px;
+  font: normal normal medium Poppins;
+  font-size: 55px;
+  letter-spacing: 0px;
+  color: #ffdd00;
+}
+
+.col-4 {
+  float: right;
+  width: 50%;
+  padding-left: 120px;
+  padding-top: 100px;
+}
+
+.col-4 p {
+  text-align: left;
+  max-width: 500px;
+  font: normal normal 300 25px/38px Poppins;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #f9f9f9;
+}
+
+.col-5 {
+  float: left;
+  width: 33.33%;
+  padding: 4px 2px;
+}
+
+.col-6 {
+  float: left;
+  width: 30%;
+  height: 100%;
+  padding: 90px 40px 0px 80px;
+}
+
+.col-6 p {
+  text-align: left;
+  font: normal normal 100 30px/50px Poppins;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.col-6 h3 {
+  text-align: left;
+  font: normal normal normal 30px/42px Poppins;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #ffdd00;
+}
+
+.col-7 {
+  float: left;
+  width: 70%;
+}
+
+.col-8 {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+  height: 300px;
+}
+
+.col-6 h2 {
+  text-align: left;
+  font: normal normal medium Poppins;
+  font-size: 55px;
+  letter-spacing: 0px;
+  color: #ffdd00;
+}
+
+.card {
+  border-radius: 5px;
+  background: #f9f9f9;
+  text-align: center;
+  height: 320px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 30px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  background-color: #ffdd00;
+}
+
+.card h4 {
+  text-align: center;
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #212121;
+  padding: 1px;
+}
+
+.card p {
+  text-align: center;
+  font: normal normal 300 15px/20px Poppins;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #212121;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 32px 0px;
+  width: 100%;
+}
+
+.card-contact {
+  text-align: center;
+  max-width: 600px;
+  min-height: 500px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}
+
+.card-contact h1 {
+  text-align: center;
+  font: normal normal bold 50px/50px Poppins;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #212121;
+}
+
+.row-con {
+  width: 100%;
+  margin-top: 135px;
+  display: flex;
+  background: #f9f9f9;
+  align-items: center;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  height: 40px;
+  margin: 5px 10px 5px 5px;
+  padding: 10px;
+  font: normal normal normal 20px/20px Poppins;
+  font-size: 12px;
+  background-color: #fffdff;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-inline textarea {
+  vertical-align: middle;
+  height: 40px;
+  margin: 5px 10px 5px 5px;
+  padding: 10px;
+  font: normal normal normal 20px/20px Poppins;
+  font-size: 12px;
+  background-color: #fffdff;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+}
+
+.col-9 {
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-top: 4px;
+  padding-right: 50px;
+}
+
+.col-9 input {
+  padding: 10px;
+  width: 140px;
+  background: #ffdd00 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.col-10 {
+  float: right;
+  display: flex;
+  /* padding-left: 20px; */
+  justify-content: right;
+}
+
+.col-10 ul {
+  width: 50%;
+  display: flex;
+  margin-left: 80px;
+  justify-content: center;
+}
+
+.col-10 ul li {
+  padding-right: 5px;
+  list-style: none;
+}
+
+.col-10 ul li a img {
+  height: 25px;
+  display: flex;
+  justify-content: right;
+}
+
+.col-contact-1 {
+  float: left;
+  width: 70%;
+  /* flex: 1; */
+}
+
+.col-contact-1 a {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font: normal normal 600 Poppins;
+  font-size: 25px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #212121;
+  text-decoration: none;
+}
+
+.col-contact-1 a img {
+  height: 4rem;
+}
+
+.col-contact-2 {
+  float: right;
+  width: 30%;
+}
+
+.col-contact-2 p {
+  /* margin-left: 250px; */
+  text-align: left;
+  font: normal normal 300 17px/17px Poppins;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #212121;
+}
+
+.col-contact-2 p img {
+  height: 12px;
+}
+
+.col-c {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font: normal normal 300 16px/22px Poppins;
+  color: #ffffff;
+}
+
+/* nav bar */
+
+.nav-1 {
+  background-color: #212121;
+  position: fixed;
+  padding: 0px 38px;
+  width: 100%;
+  transition: 0.4s;
+  z-index: 10;
+}
+
+.nav-1 ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-block-start: 6px;
+  margin-block-end: 6px;
+}
+
+.nav-1 ul li.item-1 {
+  padding: 10px 0px;
+  width: auto;
+  text-align: center;
+  order: 3;
+}
+
+.logo-1 {
+  flex: 1;
+  float: left;
+  height: 100%;
+}
+
+.logo-1 a {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font: normal normal 550 20px/20px Poppins;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  max-width: 400px;
+}
+
+.ul-nav {
+  list-style-type: none;
+}
+
+.nav-1 ul li i {
+  font-size: 20px;
+  color: #f2f2f2;
+  padding: 15px 20px;
+}
+
+.nav-1 ul li.btn {
+  display: none;
+}
+
+.item-1 a {
+  color: #f2f2f2;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.item-2 {
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.item-2 i {
+  color: #f2f2f2;
+}
+
+.nav-1 ul li a.btn {
+  display: none;
+}
+
+.nav-1 ul li.btn.hide i:before {
+  content: "\f00d";
+}
+
+.item-1 a:hover {
+  color: #ffdd00;
+}
+
+/* nav bar */
+
+.icon-link-1 {
+  display: flex;
+  padding-top: 60px;
+}
+
+.icon-link-1 li {
+  padding: 5px;
+}
+
+.icon-link-1 li a img {
+  height: 30px;
+}
+
+.input-2 {
+  width: 260px;
+}
+
+.input-3 {
+  padding-right: 20px;
+}
+
+.row-2 {
+  padding: 240px 70px;
+}
+
+.card-t {
+  max-width: 70%;
+}
+
+@media screen and (max-width: 340px) {
+  .nav-1 ul {
+    padding-inline-start: 0px;
+  }
+
+  .row-1 {
+    padding: 100px 0px 30px 0px !important;
+    width: 100%;
+  }
+
+  .col-4 p {
+    padding-right: 15px;
+  }
+
+  .form-inline label {
+    margin: 0 !important;
+  }
+
+  .form-inline input {
+    margin: 5px 0px 5px 0px !important;
+  }
+
+  .row-2 {
+    padding: 25px !important;
+  }
+
+  .nav-1 ul li.item-1 {
+    padding-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .row-con {
+    display: block;
+  }
+
+  .col-contact-1 {
+    display: none;
+    /* padding-top: 10px; */
+  }
+
+  .col-contact-1 a {
+    margin-left: 40px;
+  }
+
+  .col-contact-2 p {
+    margin-left: 40px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-t {
+    max-width: 80% !important;
+  }
+
+  .nav-1 {
+    padding: 0px 0px !important;
+  }
+
+  .form-inline input {
+    margin: 5px 0px 5px 0px;
+  }
+
+  .input-3 {
+    padding-right: 0px;
+  }
+
+  .form-inline textarea {
+    margin: 5px 0px 5px 0px;
+  }
+
+  .input-2 {
+    width: 100%;
+  }
+
+  .col-contact-1 {
+    width: 100%;
+  }
+
+  .col-contact-1 a {
+    margin-left: 40px;
+  }
+  .col-contact-2 {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .col-contact-2 p {
+    margin-left: 80px;
+  }
+
+  .col-1 ul {
+    padding-left: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .col-1 ul li h2 {
+    font-size: 8vw;
+  }
+
+  .col-1 ul li h3 {
+    font-size: 6vw;
+  }
+
+  .col-2 {
+    padding-top: 60px;
+  }
+
+  .col-2 ul {
+    padding-left: 40px !important;
+  }
+
+  .col-3 h2 {
+    font-size: 8vw;
+    padding-left: 40px;
+  }
+
+  .col-4 {
+    padding-left: 40px !important;
+  }
+
+  .col-6 {
+    padding: 90px 20px 0px 40px !important;
+  }
+
+  .col-6 h2 {
+    font-size: 10vw;
+  }
+
+  .col-contact-1 a {
+    font-size: 3vw;
+  }
+
+  .col-contact-1 a img {
+    height: 8vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-1 {
+    padding: 5px 30px;
+  }
+
+  .nav-1 ul li.item-1 {
+    width: 100%;
+    padding-right: 40px;
+    display: none;
+  }
+
+  .nav-1 ul li.item-1.show {
+    display: block;
+  }
+
+  .nav-1 ul li.btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .col-1,
+  .col-2 {
+    width: 100%;
+  }
+
+  .card-t {
+    max-width: 85%;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container-1 {
+    min-height: unset;
+  }
+
+  /* .row-1 {
+    padding-bottom: 30px;
+  } */
+
+  .row-2 {
+    padding: 70px 50px;
+  }
+
+  .col-6,
+  .col-7,
+  .col-9,
+  .col-c,
+  .col-10 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-2 ul {
+    padding-left: 90px;
+  }
+
+  .card-contact {
+    padding: auto;
+  }
+
+  .col-9 {
+    padding: 0px;
+  }
+
+  .col-10 {
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .col-10 ul {
+    padding-right: 40px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .col-8 {
+    width: 100%;
+  }
+
+  .col-8 {
+    margin-top: 2px;
+    height: unset;
+  }
+
+  .col-5 {
+    width: 100%;
+  }
+}
